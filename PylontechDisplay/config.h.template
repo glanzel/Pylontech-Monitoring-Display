@@ -1,0 +1,15 @@
+
+#define WIFI_SSID      ""
+#define WIFI_PASS      ""
+
+#define ENABLE_MQTT
+
+#define MQTT_SERVER        ""
+#define MQTT_PORT          8883
+#define MQTT_USER          ""
+#define MQTT_PASSWORD      ""
+#define MQTT_TOPIC_ROOT    "home/grid_battery/"  //this is where mqtt data will be pushed
+
+#define MAX_PUSH_FREQ_SEC 60  //maximum push update frequency in seconds
+
+#define OLED_TEXT_SIZE 4  //maximum push update frequency in seconds
